@@ -20,6 +20,48 @@ let restaurants = [
         price_level: 2,
         time: "35 - 45"
     },
+    {
+        img: "img/products/4.png",
+        name: "НЯ — NHA",
+        tag: "Вьетнамская",
+        price_level: 2,
+        time: "30 - 40"
+    },
+    {
+        img: "img/products/5.png",
+        name: "Точка Дзы — Цветной",
+        tag: "Вьетнамская",
+        price_level: 2,
+        time: "40 - 50"
+    },
+    {
+        img: "img/products/6.png",
+        name: "Cinnabon",
+        tag: "Выпечка Десерты Капкейки",
+        price_level: 2,
+        time: "25 - 35"
+    },
+    {
+        img: "img/products/7.png",
+        name: "PIZZELOVE",
+        tag: "Пицца",
+        price_level: 2,
+        time: "15 - 25"
+    },
+    {
+        img: "img/products/8.png",
+        name: "Zю кафе — Тверская",
+        tag: "Японская",
+        price_level: 2,
+        time: "25 - 35"
+    },
+    {
+        img: "img/products/9.png",
+        name: "Bar BQ Cafe — Манежная",
+        tag: "Европейская",
+        price_level: 3,
+        time: "30 - 40"
+    },
 ]
 
 

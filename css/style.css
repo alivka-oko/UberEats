@@ -86,6 +86,7 @@ input.search__form:focus {
     font-size: 22px;
     font-weight: 400;
     line-height: 34px;
+    margin-bottom: 16px;
 }
 
 .restaurants__cards {
