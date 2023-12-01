@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-accent: #1D1D1D;
+    --white: #fff;
+    --darkgrey: #757575;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.container {
+    max-width: 962px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 16px 0;
+    background-color: var(--white);
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.header>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__action {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.header__basket {
+    background: transparent;
+    border: none;
+    background-image: url('../img/icons/basket.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 19px;
+    height: 25px;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 40px;
+    color: #1D1D1D;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: transparent;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+}
+
+.search>.container {
+    padding: 56px 0;
+    opacity: 0.3;
+}
+
+input.search__form {
+    border: none;
+    border-bottom: 1px solid var(--darkgrey);
+    width: 100%;
+    color: #626262;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+input.search__form:focus {
+    outline: none;
+}
+
+.restaurants__title {
+    color: var(--dark-accent);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.restaurants__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.restaurant-card {
+    width: 308px;
+    height: 366px;
+    margin-bottom: 16px;
+}
+
+.restaurant-card__img {
+    width: 308px;
+    height: 256px;
+    object-fit: cover;
+}
+
+.restaurant-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 16px;
+}
+
+.restaurant-card__title {
+    color: var(--dark-accent);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.restaurant-card__tag {
+    color: var(--darkgrey);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.restaurant-card__time {
+    color: var(--dark-accent);
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 161.538% */
+}
